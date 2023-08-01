@@ -1,0 +1,7 @@
+setclipboard(game:GetService("RbxAnalyticsService"):GetClientId())]
+wait(0.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Top Mafia"; -- the title 
+Text = "successfully copied! Dm the owner if you see this to get whitelisted"; -- what the text says 
+Duration = 5; -- how long the notification should in secounds
+})
